@@ -6,10 +6,14 @@ main {
     padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html{
-    height: 100%;
-    padding: 0;
-    margin: 0;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 body{
@@ -23,6 +27,7 @@ body{
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* logo SoulCode sem edição*/
@@ -140,8 +145,33 @@ tr{
   font-weight: bold;
 }
 
-/* imagem das tabelas */
-.imgtable{
+
+/* conteiner tabela principal */
+.cont1pg {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.cont1pg table{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cont1pg figure{
+  padding:0;
+  margin: 0;
+}
+
+.cont1pg figure img{
+  padding:0;
+  margin: 0;
+  width: 220px;
+  height: auto;
+}
+
+/* imagem das tabelas - páginas secundárias*/
+.imgtable {
   display: block;
   width: 220px;
   height: 200px;
@@ -153,6 +183,8 @@ tr{
   font-weight: bold; 
   line-height: 20px;
   padding: 20px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /* imagem do campo novidade */
