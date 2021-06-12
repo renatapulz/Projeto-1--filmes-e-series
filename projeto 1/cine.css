@@ -1,0 +1,261 @@
+main {
+    background-color: 10041c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ /* background página de abertura */
+.bg{ 
+    background-image: url("imgsite/Backgroundsite.JPEG");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+/* logo SoulCode sem edição*/
+.logo {
+    width: auto;
+    height: 60px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* footer página de abertura */
+.finicial{
+    position: absolute;
+    background-color: #10041c;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    bottom: 0;
+}
+
+/* botão entrar página inicial */
+.botao{
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    bottom: 180px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px; /*para centralizar o nome dentro do botão (altura) */
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+ }
+
+ /* para tirar o efeito do link */
+ a{
+    text-decoration: none;
+}
+
+.logotit{
+  
+}
+
+#menu{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 60px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    margin-left: 70px;
+  }
+
+  .menu li a {
+    color: rgb(158, 154, 154);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+  }
+
+  .menu li a:hover {
+    background: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #ccc;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+  }
+  .menu li ul {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -70px;
+  }
+
+  .menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 220px;
+  }
+  
+.busca{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+tr{
+  text-align: center;
+  font-weight: bold;
+}
+
+/* imagem das tabelas */
+.imgtable{
+  display: block;
+  width: 220px;
+  height: 200px;
+  margin: 20px;
+}
+
+/* campo novidade */
+.novidades{
+  font-weight: bold; 
+  line-height: 20px;
+  padding: 20px;
+}
+
+/* imagem do campo novidade */
+.imgnovid{
+  display: block;
+  margin: 0 auto;
+}
+
+/* footer da página principal */
+.fpgprinc{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* logo página principal */
+.logopgprinc{
+  display: block;
+  position: absolute;
+  float: left;
+  width: 80px;
+  height: 60px;
+  margin-top: 45px;
+  margin-left: 400px;
+
+}
+
+/* imagem icones midias sociais */
+.imgicones{
+  width: 40px;
+  height: 35px;
+}
+
+/* footer páginas secundárias */
+.fpgsec{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+#conteudoformulario{
+  width: 750px;
+  display: flex;
+  margin-top: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* campo aside */
+.contato{
+  width: 45%;
+  
+}
+
+/* formulário */
+.formulario{
+  width: 55%;
+
+}
+
+/* dados campo formúlario */
+.campoform{
+  display: block;
+  margin:10px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.titleform{
+  margin-left: 20px;
+}
+
+/* botão do formulário */
+.botaoform{
+  margin: 10px 30px 20px 180px;
+}
+
+.ffinal{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.logofinal{
+  width: auto;
+  height: 40px;
+  text-align: center;
+  margin-top: 8px;
+}
